@@ -1,22 +1,28 @@
 
 # ISM2411 Lab 11 - Customer Dictionary & Lookup
 # Name: Mina Ergin
+# I used Ai to help me with areas I got stuck on.
 
-# Reflection Question 1:
-# I would use .get() when looking up information that
-# might not exist, such as a customer's phone number
-# or email address. I would use bracket notation when
-# the information is required and should always exist.
-# My rule of thumb is to use .get() for optional fields
-# and brackets for required fields.
+# Question 1:
+# In a real life situation, for work I would use .get() 
+# when I'm not sure about the existence or availability 
+# of certain information. For example a customers phone 
+# number for a purchase. I would use .get() to avoid a 
+# KeyError if the phone number is not available in the 
+# dictionary. I would use brackets when I know that the 
+# information should already be there. 
 
-# Reflection Question 2:
-# Building a summary dictionary reminds me of using
-# PivotTables in Excel to organize and total sales
-# by categories such as region. Python can be more
-# useful for large datasets because it can automate
-# calculations and handle large amounts of data
-# without manually updating spreadsheets.
+# Question 2:
+# Exercise 8 showed me how Python can make it easier to 
+# summarize data. For example Python can take individual 
+# sales records and turn them into a summary of sales which
+# is overall easier to understand. This is useful for work 
+# because it can help me to quickly understand the overall 
+# sales performance. You can also do this in PivotTable in 
+# in Excel but I had to write the steps myself instead of 
+# selecting options in a spreadhsheet. I think Python is 
+# really useful for businesses that need to organize new 
+# sales data and summarize it quickly and regularly. 
 
 
 
