@@ -50,3 +50,31 @@ print(customer)
 
 del customer["email"]
 print(customer)
+
+
+
+# Exercise 3 - Safe Lookup
+
+print("\nExercise 3")
+
+print(customer.get("email", "no email on file"))
+
+try:
+    print(customer["email"])
+except KeyError:
+    print("KeyError: email does not exist")
+
+
+
+# Exercise 4 - Iterate
+
+print("\nExercise 4")
+
+for key, value in customer.items():
+    print(f"{key}: {value}")
+
+# Without .items(), the loop only returns the keys.
+# With .items(), the loop returns both keys and values.
+
+for key in customer:
+    print(key)
